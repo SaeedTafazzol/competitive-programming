@@ -14,7 +14,7 @@ int main(){
                 p = i+1;
                 int min = p;
                 for(int j = p;j<n;j++){
-                    if(seq[p]>seq[j] && seq[j]!=seq[i]){
+                    if(seq[p]>seq[j] && seq[j]>seq[i]){
                         min = j;
                     }
                 }
